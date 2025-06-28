@@ -1,0 +1,9 @@
+[submodule "DrumKitService"]
+	path = Submodules/DrumKitService
+	url = https://github.com/Fleuronic/DrumKitService
+[submodule "DrumKitAPI"]
+	path = Submodules/DrumKitAPI
+	url = https://github.com/Fleuronic/DrumKitAPI
+[submodule "DrumKitDatabase"]
+	path = Submodules/DrumKitDatabase
+	url = https://github.com/Fleuronic/DrumKitDatabase
