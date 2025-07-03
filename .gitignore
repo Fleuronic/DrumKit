@@ -1,3 +1,7 @@
+.d
+.dia
+.swiftdeps
+.swiftmodule
 .DS_Store
 /.build
 /.vscode
