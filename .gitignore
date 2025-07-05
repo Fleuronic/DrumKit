@@ -1,8 +1,8 @@
-.d
-.dia
-.swiftdeps
-.swiftmodule
 .DS_Store
+*.d
+*.dia
+*.swiftdeps
+*.swiftmodule
 /.build
 /.vscode
 /.swiftpm
