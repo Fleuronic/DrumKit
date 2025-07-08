@@ -3,6 +3,6 @@
 import MemberwiseInit
 
 @MemberwiseInit(.public)
-public struct Group: Equatable, Sendable {
+public struct Ensemble: Equatable, Sendable {
 	public let name: String
 }
