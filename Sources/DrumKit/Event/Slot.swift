@@ -5,5 +5,5 @@ import MemberwiseInit
 
 @MemberwiseInit(.public)
 public struct Slot: Equatable, Sendable {
-	public let time: TimeInterval?
+	public let time: Time?
 }
