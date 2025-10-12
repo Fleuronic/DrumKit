@@ -1,6 +1,5 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import Foundation
 import MemberwiseInit
 
 @MemberwiseInit(.public)
