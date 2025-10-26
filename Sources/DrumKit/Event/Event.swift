@@ -6,6 +6,6 @@ import MemberwiseInit
 @MemberwiseInit(.public)
 public struct Event: Equatable, Sendable {
 	public let date: Date
-	public let detailsURL: URL
-	public let scoresURL: URL
+	public let detailsURL: URL?
+	public let scoresURL: URL?
 }
