@@ -19,7 +19,16 @@ let package = Package(
 	targets: [
 		.target(
 			name: "DrumKit",
-			dependencies: [.product(name: "MemberwiseInit", package: "swift-memberwise-init-macro")]
+			dependencies: [
+				.product(
+					name: "MemberwiseInit",
+					package: "swift-memberwise-init-macro"
+				)
+			]
+		),
+		.testTarget(
+			name: "DrumKitTests",
+			dependencies: ["DrumKit"]
 		)
 	],
 	swiftLanguageModes: [.v6]
