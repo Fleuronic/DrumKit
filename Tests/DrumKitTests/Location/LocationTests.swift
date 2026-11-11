@@ -5,10 +5,11 @@ import Testing
 
 struct LocationTests {
 	@Test func location() {
-		let location = Location(city: "Indianapolis")
+		let location = Location(city: "Indianapolis", timeZone: "America/Indiana/Indianapolis")
 
 		#expect(location.city == "Indianapolis")
-		#expect(location == Location(city: "Indianapolis"))
-		#expect(location != Location(city: "Allentown"))
+		#expect(location.timeZone == "America/Indiana/Indianapolis")
+		#expect(location == Location(city: "Indianapolis", timeZone: "America/Indiana/Indianapolis"))
+		#expect(location != Location(city: "Allentown", timeZone: "America/New_York"))
 	}
 }
