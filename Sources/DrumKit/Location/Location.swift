@@ -4,6 +4,6 @@ import MemberwiseInit
 
 @MemberwiseInit(.public)
 public struct Location: Equatable, Sendable {
-	public let city: String
+	public let city: String?
 	public let timeZone: String?
 }
